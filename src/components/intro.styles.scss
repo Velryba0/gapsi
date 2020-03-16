@@ -1,0 +1,42 @@
+.ecommerce-intro-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+    -webkit-box-shadow: -9px 5px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 5px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: -9px 5px 21px -6px rgba(0,0,0,0.75);
+    font-family: 'Amatic SC', cursive;
+
+    .ecomerce-intro-container-title {
+        font-size: 25px;
+    }
+
+    .ecommerce-intro-menu {
+        display: flex;
+        z-index: 5000;
+    }
+
+    .ecommerce-intro-row {
+        display: flex;
+        justify-content: space-around !important;
+    }
+    
+    .ecommerce-intro-row-2 {
+        height: 100%;
+    }
+
+    .ecommerce-intro-column {
+        position: relative;
+        top: -42px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .ecommerce-intro-container-subtitle {
+            margin: 0;
+        }
+    }
+}
+

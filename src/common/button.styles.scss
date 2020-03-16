@@ -1,0 +1,22 @@
+.ecommerce-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 33px;
+    background-color: white;
+    border: none;
+    color: #1A8C9C;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    &:hover {
+        color: white;
+        background-color: #1A8C9C;
+        transition: .4s ease-in-out;
+    }
+}
